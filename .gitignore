@@ -1,0 +1,8 @@
+*~
+*.swp
+*.iml
+.idea
+.DS_Store
+npm-debug.log
+init.sh.bak
+public/dist/*

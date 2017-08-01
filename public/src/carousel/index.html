@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片轮播组件</title>
+    <link href="../common/css/base.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="carousel">
+    </div>
+    <script src="../../dist/common.min.js"></script>
+    <script src="../../dist/carousel.min.js"></script>
+    <script>
+        new carousel({
+            el:"#carousel",
+            dataList:[
+                {imgUrl:"./images/1.jpg",alt:"图片一"},
+                {imgUrl:"./images/2.jpg",alt:"图片二"},
+                {imgUrl:"./images/3.jpg",alt:"图片三"},
+                {imgUrl:"./images/4.jpg",alt:"图片四"}
+            ],
+            direction:"up",
+            startIndex:0,
+            delay:4000
+        });
+    </script>
+
+</body>
+</html>
